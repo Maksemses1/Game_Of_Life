@@ -1,13 +1,15 @@
-package src.GameOfLife;
+package GameOfLife;
+
 import java.awt.event.*;
 
-class Key extends KeyAdapter{
+class Key extends KeyAdapter {
   Canvas canvas;
 
-  Key(Canvas canvas){
+  Key(Canvas canvas) {
     this.canvas = canvas;
   }
-  public void keyPressed(KeyEvent e){
+
+  public void keyPressed(KeyEvent e) {
     canvas.keyHandler(e.getKeyCode());
   }
 }

@@ -1,4 +1,4 @@
-package src.GameOfLife;
+package GameOfLife;
 import javax.swing.*;
 
 class Window extends JFrame{
