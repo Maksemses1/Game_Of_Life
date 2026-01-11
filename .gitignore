@@ -1,2 +1,3 @@
 bin/GameOfLife/*.class
-build.gradle
+./build.gradle
+./.project
