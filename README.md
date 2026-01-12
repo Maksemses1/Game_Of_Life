@@ -18,3 +18,8 @@ You can launch the program with the --predictDies argument to visualize cells th
 ```bash
 ./jmake.sh --predictDies
 ```
+
+You can change cell size with the --cellSize argument (default size is 50):
+```bash
+./jmake.sh --cellSize 50
+```

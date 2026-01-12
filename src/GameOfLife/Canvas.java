@@ -47,7 +47,8 @@ class Canvas extends JPanel {
         int xCoord = (int) (x / field.CELL_SIZE);
         int yCoord = (int) (y / field.CELL_SIZE);
 
-        field.setCell(xCoord, yCoord, 1);
+        if(field.getCell(xCoord, yCoord) == 0) field.setCell(xCoord, yCoord, 1);
+        else field.setCell(xCoord, yCoord, 0);
         repaint();
     }
 }
